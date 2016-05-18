@@ -13,11 +13,10 @@ RUN apk update \
     perl \
     wget \
     git \
-    ca-certificates \
   && pip install lxml plac gevent zerorpc pyusb pyscard\
   && rm -rf /var/cache/apk/*
 RUN cd /home \
-  && wget https://alioth.debian.org/frs/download.php/latestfile/112/ccid-1.4.23.tar.bz2 \
+  && wget --no-check-certificate http://alioth.debian.org/frs/download.php/latestfile/112/ccid-1.4.23.tar.bz2 \
   && zcat ccid-*.tar.bz2  | tar -xvf - \
   && cd ccid-* \
   && ./configure \
