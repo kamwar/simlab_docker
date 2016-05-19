@@ -1,4 +1,4 @@
-# simlab_docker
+# simlab
 Docker for simLAB - SIM UICC card editor and SIM/SAT simulator.
 Docker includes pcsc support.
 
@@ -19,3 +19,5 @@ To start simLAB with live SIM, connect any PC/SC card reader.
 ```
 
 For MitM functionality, simtrace must be connected.
+
+Want to learn more? Detailed information can be found in the [simLAB wiki](https://github.com/kamwar/simLAB/wiki)
