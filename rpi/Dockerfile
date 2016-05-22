@@ -6,6 +6,7 @@ RUN apk update \
     py-pip \
     libxml2-dev \
     libxslt-dev \
+    pcsc-lite \
     pcsc-lite-dev \
     build-base \
     swig \
