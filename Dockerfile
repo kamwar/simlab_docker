@@ -3,6 +3,7 @@ RUN apk update \
   && apk upgrade \
   && apk add python \
     python-dev \
+    python-tk \
     py-pip \
     libxml2-dev \
     libxslt-dev \
